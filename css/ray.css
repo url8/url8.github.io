@@ -1,0 +1,150 @@
+body {
+	background-color: #FAFAFA;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header{
+	position: fixed;
+	z-index: 99999;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: calc(100% - 16px);
+	height: 45px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 8px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header ul{
+	margin: 0px;
+}
+
+.header li{
+	display: inline-block;
+	width: auto;
+	height: 100%;
+	padding: 10px 12px;
+	font-family: Microsoft YaHei;
+}
+
+.head {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin: 103px 0 0 0;
+	text-align: center;
+}
+
+.main {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin: 263px 0 0 0;
+	text-align: center;
+}
+.main input {
+    height: 35px;
+    border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: #1E9FFF;
+	background-color: #FAFAFA;
+    padding-left: 5px;
+	font-size: 20px;
+	margin: 20px 0;
+	outline: none;
+}
+.main span {
+	font-size: 20px;
+}
+.last {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin: 603px 0 0 0;
+	text-align: center;
+}
+.last h1 {
+	font-weight: bolder;
+	font-size: 30px;
+	line-height: 20px;
+}
+.last p {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 25px;
+}
+.foot {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 903px;
+}
+.eback {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #000000;
+	opacity: 0.5;
+	z-index: 99998;
+}
+.ebar {
+	position: fixed;
+	margin: auto;
+	height: 50%;
+	width: 620px;
+	z-index: 99999;
+	border: 0px;
+	background: #FFFFFF;
+	border-style: solid;
+	border-radius: 18px;
+	border-width: 20px;
+	border-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 50px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.ebtn {
+	margin: 20px 0 0 0;
+    height: auto;
+    width: auto;
+    background-color: #FF5722;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 28px;
+    border-color: #FF5722;
+    color: #FFFFFF;
+    cursor: pointer;
+	outline: none;
+}
+.ebtn:active {
+	background-color: #e74c3c;
+	border-color: #e74c3c;
+}
+.timg {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000;
+	margin: 0 auto;
+	max-width: 600px;
+	height: auto;
+}
